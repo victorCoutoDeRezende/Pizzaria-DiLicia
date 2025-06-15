@@ -1,94 +1,84 @@
 🍕 Pizzaria DiLicia
-
 📖 Sobre o Projeto
+Pizzaria DiLicia é uma aplicação mobile completa desenvolvida em React Native com Expo. Ela simula uma pizzaria real, permitindo que os utilizadores:
 
-A Pizzaria DiLicia é uma aplicação mobile completa desenvolvida em React Native com Expo. O projeto simula uma aplicação de uma pizzaria real, permitindo que os utilizadores criem contas, façam pedidos, consultem o seu histórico e encontrem a localização do restaurante. O principal objetivo foi criar uma experiência de utilizador fluida e funcional, implementando um sistema de gestão de dados totalmente autónomo e local.
+Criem contas
 
-A aplicação foi projetada para funcionar de forma 100% offline (após a instalação), utilizando o armazenamento local do dispositivo para simular um backend completo, garantindo que possa ser demonstrada em qualquer lugar, sem dependência de um computador ou de uma ligação à internet.
+Façam pedidos
+
+Consultem seu histórico
+
+Encontrem a localização da pizzaria
+
+O foco principal é oferecer uma experiência fluida e 100% offline, utilizando armazenamento local para simular um backend completo.
 
 ✨ Funcionalidades Principais
+🔐 Sistema de Autenticação
+Registro e login de utilizadores
 
-Sistema de Autenticação:
+Dados armazenados localmente com segurança
 
-Registo e Login de utilizadores.
+Logout para encerrar sessões
 
-Os dados são guardados localmente de forma segura.
+🍕 Realização de Pedidos
+Cardápio dividido em categorias (Tradicional, Especial, etc.)
 
-Sistema de logout para encerrar a sessão.
+Cálculo de preço dinâmico por tamanho (Pequena, Média, Grande, Gigante)
 
-Realização de Pedidos:
+Fluxo completo de compra: seleção → confirmação
 
-Navegação por um cardápio dividido em categorias (Tradicional, Especial, etc.).
+📦 Gestão de Pedidos
+Tela "Meus Pedidos" com histórico completo
 
-Cálculo de preço dinâmico com base no tamanho da pizza selecionado (Pequena, Média, Grande, Gigante).
+Edição em tempo real: nome, endereço, telefone, sabor e tamanho
 
-Fluxo de compra completo, desde a seleção da pizza até à confirmação do pedido.
+Cancelamento/remoção de pedidos do histórico
 
-Gestão de Pedidos do Utilizador:
+📞 Telas Adicionais
+Fale Conosco: Formulário para dúvidas ou sugestões
 
-Tela "Os Meus Pedidos" que exibe um histórico de todos os pedidos realizados pelo utilizador autenticado.
-
-Funcionalidade de edição de pedidos em tempo real, permitindo alterar dados como nome, endereço, telefone, sabor e tamanho da pizza.
-
-Opção para cancelar/eliminar um pedido do histórico.
-
-Telas Adicionais:
-
-Fale Conosco: Um formulário de contato para os utilizadores enviarem dúvidas ou sugestões.
-
-Restaurantes: Exibe a localização da pizzaria num mapa interativo, utilizando React Native Maps para uma experiência nativa no telemóvel e uma WebView para compatibilidade na web.
+Restaurantes: Localização via mapa interativo (nativo + WebView)
 
 🚀 Tecnologias Utilizadas
-
-Este projeto foi construído com as seguintes tecnologias e bibliotecas:
-
-Framework Principal: React Native com Expo
+Framework: React Native com Expo
 
 Linguagem: JavaScript (ES6+)
 
-Gestão de Estado: React Hooks (useState, useEffect) e Hooks Customizados (ex: useAuth, useOrders).
+📦 Gestão de Estado
+useState, useEffect e hooks personalizados (useAuth, useOrders)
 
-Navegação: Sistema de navegação simples baseado em estado para alternar entre telas.
+🧭 Navegação
+Sistema simples baseado em estado
 
-Armazenamento de Dados (Backend Local): @react-native-async-storage/async-storage para persistir todos os dados da aplicação (utilizadores e pedidos) diretamente no dispositivo.
+💾 Armazenamento Local
+@react-native-async-storage/async-storage
 
-Mapas:
+🗺️ Mapas
+react-native-maps (nativo)
 
-react-native-maps para uma experiência nativa de mapas no iOS e Android.
+react-native-webview (compatibilidade web)
 
-react-native-webview para exibir o mapa em ambientes web.
-
-Estilização: StyleSheet do React Native para uma estilização performática e componentizada.
+🎨 Estilização
+StyleSheet do React Native
 
 ⚙️ Como Executar o Projeto
-
-Clone o repositório:
-
+bash
+Copiar
+Editar
+# Clone o repositório
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-Entre na pasta do projeto:
-
+# Acesse a pasta
 cd nome-do-repositorio
 
-Instale as dependências:
-
+# Instale as dependências
 npm install
 
-Instale as bibliotecas nativas necessárias:
-
+# Instale as bibliotecas nativas
 npx expo install react-native-webview
 npx expo install react-native-maps
 npx expo install @react-native-async-storage/async-storage
 
-Inicie o servidor de desenvolvimento:
-
+# Inicie o servidor de desenvolvimento
 npx expo start
-
-Leia o QR Code com a aplicação Expo Go no seu celular iOS ou Android para testar.
-npx expo install @react-native-async-storage/async-storage
-
-Inicie o servidor de desenvolvimento:
-
-npx expo start
-
-Leia o QR Code com a aplicação Expo Go no seu telemóvel iOS ou Android para testar.
+Use a aplicação Expo Go no seu dispositivo Android/iOS para escanear o QR Code e testar.
