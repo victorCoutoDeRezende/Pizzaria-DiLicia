@@ -78,6 +78,6 @@ npx expo install react-native-maps
 npx expo install @react-native-async-storage/async-storage
 ```
 # Inicie o servidor de desenvolvimento
-`npx expo start`
+`npm run web`
 
 Use a aplicação Expo Go no seu dispositivo Android/iOS para escanear o QR Code e testar.
