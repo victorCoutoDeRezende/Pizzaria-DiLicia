@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Pizzaria",
+    "slug": "Pizzaria",
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "a9e445a4-019b-42f7-8943-2886ba592ed7"
+      }
+    }
+  }
+}
