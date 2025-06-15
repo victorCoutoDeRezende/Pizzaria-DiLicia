@@ -62,23 +62,22 @@ react-native-webview (compatibilidade web)
 StyleSheet do React Native
 
 # ⚙️ Como Executar o Projeto
-bash
-Copiar
-Editar
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+`git clone https://github.com/seu-usuario/nome-do-repositorio.git`
 
 # Acesse a pasta
-cd nome-do-repositorio
+`cd nome-do-repositorio`
 
 # Instale as dependências
-npm install
+`npm install`
 
 # Instale as bibliotecas nativas
+```
 npx expo install react-native-webview
 npx expo install react-native-maps
 npx expo install @react-native-async-storage/async-storage
-
+```
 # Inicie o servidor de desenvolvimento
-npx expo start
+`npx expo start`
+
 Use a aplicação Expo Go no seu dispositivo Android/iOS para escanear o QR Code e testar.
