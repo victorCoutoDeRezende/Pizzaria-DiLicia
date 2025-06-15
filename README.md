@@ -63,7 +63,7 @@ StyleSheet do React Native
 
 # ⚙️ Como Executar o Projeto
 # Clone o repositório
-`git clone https://github.com/seu-usuario/nome-do-repositorio.git`
+`git clone https://github.com/victorCoutoDeRezende/Pizzaria-DiLicia.git`
 
 # Acesse a pasta
 `cd nome-do-repositorio`
